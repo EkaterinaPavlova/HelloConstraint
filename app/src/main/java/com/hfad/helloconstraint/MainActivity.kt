@@ -1,6 +1,5 @@
-package com.hfad.hellotoast
+package com.hfad.helloconstraint
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
