@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun showToast(view: android.view.View) {
+    fun showToast() {
         Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT).show()
     }
 
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         checkCount(mCount)
     }
 
-    fun returnZero(view: android.view.View) {
+    fun returnZero() {
         mCount = 0
         binding.showCount.text = mCount.toString()
         checkCount(mCount)
